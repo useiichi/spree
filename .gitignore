@@ -54,3 +54,7 @@ test_app
 */.sass-cache
 .localeapp
 .ruby-gemset
+
+
+*.gemspec
+
