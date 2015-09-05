@@ -35,7 +35,7 @@ module Spree
     # end
 
     def full_name
-      "#{firstname} #{lastname}".strip
+      "#{lastname} #{firstname}".strip
     end
 
     def state_text
