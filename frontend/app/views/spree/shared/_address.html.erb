@@ -4,6 +4,9 @@
       <%= address.company %>
     </div>
   <% end %>
+
+  <div class="fn"><%= address.full_name %></div>
+
   <div class="adr">
     <div class="street-address">
       <span class="postal-code"><%= address.zipcode %></span>
@@ -20,8 +23,6 @@
       <div class="country-name" style="display:none"><%= address.country.try(:name) %></div>
     </div>
   </div>
-
-  <div class="fn"><%= address.full_name %></div>
 
   <% unless address.phone.blank? %>
     <div class="tel">
