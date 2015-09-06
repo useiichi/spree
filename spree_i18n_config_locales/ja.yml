@@ -9,7 +9,7 @@ ja:
         firstname: "名前（名）"
         lastname: "名前（姓）"
         phone: "電話番号"
-        state: "都道府県（州）"
+        state: "都道府県"
         zipcode: "郵便番号"
       spree/calculator/tiered_flat_rate:
         preferred_base_amount:
@@ -253,8 +253,8 @@ ja:
         other: "配送カテゴリ"
       spree/shipping_method:
       spree/state:
-        one: "都道府県（州）"
-        other: "都道府県（州）"
+        one: "都道府県"
+        other: "都道府県"
       spree/state_change:
       spree/stock_location:
       spree/stock_movement:
@@ -359,7 +359,7 @@ ja:
     add_product: "新規商品の追加"
     add_product_properties: "商品に属性を追加"
     add_rule_of_type: "次のタイプのルールを追加する"
-    add_state: "都道府県（州）の追加"
+    add_state: "都道府県の追加"
     add_stock: "ストック追加"
     add_stock_management:
     add_to_cart: "カートに追加"
@@ -796,7 +796,7 @@ ja:
     new_shipment_at_location:
     new_shipping_category: "新規配送カテゴリー"
     new_shipping_method: "新規配送方法"
-    new_state: "新規都道府県（州）"
+    new_state: "新規都道府県"
     new_stock_location:
     new_stock_movement:
     new_stock_transfer:
@@ -1158,7 +1158,7 @@ ja:
     shipping_method: "配送方法"
     shipping_methods: "配送方法"
     shipping_price_sack:
-    shipping_total:
+    shipping_total: "送料合計"
     shop_by_taxonomy: "%{taxonomy}"
     shopping_cart: "ショッピングカート"
     show: "表示"
@@ -1177,7 +1177,7 @@ ja:
     ssl:
       change_protocol:
     start: "始め"
-    state: "都道府県（州）"
+    state: "都道府県"
     state_based: "都道府県(州)による区別"
     state_machine_states:
       accepted:
@@ -1211,7 +1211,7 @@ ja:
       returned:
       shipped:
       void:
-    states: "都道府県（州）"
+    states: "都道府県"
     states_required: "必須"
     status: "状況"
     stock:
@@ -1228,7 +1228,7 @@ ja:
     stock_transfers:
     stop: "終わり"
     store: "ストア"
-    street_address: "住所"
+    street_address: "番地・マンション名"
     street_address_2: "住所の続き"
     subtotal: "合計"
     subtract: "引く"
