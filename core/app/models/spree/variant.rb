@@ -51,6 +51,9 @@ module Spree
       end
     end
 
+    self.whitelisted_ransackable_associations = %w[option_values product prices default_price]
+    self.whitelisted_ransackable_attributes = %w[weight sku]
+
     def self.active(currency = nil)
       joins(:prices).where(deleted_at: nil).where('spree_prices.currency' => currency || Spree::Config[:currency]).where('spree_prices.amount IS NOT NULL')
     end
@@ -211,6 +214,10 @@ module Spree
     # This considers both variant tracking flag and site-wide inventory tracking settings
     def should_track_inventory?
       self.track_inventory? && Spree::Config.track_inventory_levels
+    end
+
+    def track_inventory
+      self.should_track_inventory?
     end
 
     def volume

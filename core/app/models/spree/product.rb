@@ -31,7 +31,7 @@ module Spree
     has_many :properties, through: :product_properties
 
     has_many :classifications, dependent: :delete_all, inverse_of: :product
-    has_many :taxons, through: :classifications
+    has_many :taxons, through: :classifications, before_remove: :remove_taxon
     has_and_belongs_to_many :promotion_rules, join_table: :spree_products_promotion_rules
 
     belongs_to :tax_category, class_name: 'Spree::TaxCategory'
@@ -98,6 +98,9 @@ module Spree
     accepts_nested_attributes_for :product_properties, allow_destroy: true, reject_if: lambda { |pp| pp[:property_name].blank? }
 
     alias :options :product_option_types
+
+    self.whitelisted_ransackable_associations = %w[stores variants_including_master master variants]
+    self.whitelisted_ransackable_attributes = %w[description name slug]
 
     # the master variant is not a member of the variants array
     def has_variants?
@@ -348,6 +351,10 @@ module Spree
       Spree::Taxonomy.where(id: taxonomy_ids).update_all(updated_at: Time.current)
     end
 
+    def remove_taxon(taxon)
+      removed_classifications = classifications.where(taxon: taxon)
+      removed_classifications.each &:remove_from_list
+    end
   end
 end
 
