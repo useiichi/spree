@@ -932,7 +932,7 @@ ja:
     percent:
     percent_per_item: Percent Per Item
     permalink: "パーマリンク"
-    phone: "電話番号"
+    phone: "TEL"
     place_order: "注文を送信する"
     please_define_payment_methods: "まず支払い方法を定義してください。"
     populate_get_error: Something went wrong. Please try adding the item again.
