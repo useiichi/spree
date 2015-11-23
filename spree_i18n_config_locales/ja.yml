@@ -442,7 +442,7 @@ ja:
     back_to_users_list: "ユーザー一覧に戻る"
     backorderable:
     backorderable_default:
-    backordered:
+    backordered: "在庫切れ"
     backorders_allowed:
     balance_due: "未払額"
     base_amount:
@@ -645,7 +645,7 @@ ja:
     filter_results: "検索結果"
     finalize: "確定"
     finalized:
-    find_a_taxon:
+    find_a_taxon: "分類を探す"
     first_item: "一品目の値段"
     first_name: "名前（名）"
     first_name_begins_with: "名前（名）が以下の文字列で始まる"
@@ -865,15 +865,15 @@ ja:
         subtotal:
         total:
       confirm_email:
-        dear_customer:
-        instructions:
-        order_summary:
+        dear_customer: "-----------\nアイ製作\n-----------"
+        instructions: "この度はご注文いただきありがとうございます。"
+        order_summary: "ご注文内容は以下の通りです。ご確認ください。"
         subject: "注文確認"
-        subtotal:
-        thanks:
-        total:
+        subtotal: "小計："
+        thanks: "ご入金確認後商品の発送となります。ご入金はご注文後より５営業日以内にお願い致します。\n\n---------------------------------\nアイ製作\n〒362-0806 埼玉県北足立郡伊奈町小室２４８４－２\nTEL: 080-8744-9051\nURL: https://www.iseisaku.com/\nMail: webmaster@iseisaku.com\n---------------------------------"
+        total: "合計："
     order_not_found:
-    order_number:
+    order_number: "注文完了"
     order_processed_successfully: "注文が完了しました。"
     order_resumed:
     order_state:
@@ -1111,6 +1111,7 @@ ja:
     secure_connection_type: "接続保護のタイプ"
     security_settings: "セキュリティの設定"
     select: "選択"
+    selected_quantity_not_available: "選択した数量の在庫はありません"
     select_a_return_authorization_reason:
     select_a_stock_location:
     select_from_prototype: "プロトタイプから選択"
@@ -1185,7 +1186,7 @@ ja:
       authorized:
       awaiting:
       awaiting_return:
-      backordered:
+      backordered: "在庫切れ"
       canceled:
       cart:
       checkout:
