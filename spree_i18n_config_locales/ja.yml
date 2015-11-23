@@ -421,7 +421,7 @@ ja:
     analytics_desc_list_4:
     analytics_trackers: "アナリティクストラッカー"
     and: "と"
-    approve:
+    approve: "受付"
     approved_at:
     approver:
     are_you_sure: "これで宜しいですか?"
@@ -558,7 +558,7 @@ ja:
         site_id:
         token:
       jirafe_settings_updated:
-    date:
+    date: "日"
     date_completed: "完了日"
     date_picker:
       first_day:
@@ -851,8 +851,8 @@ ja:
     order: "注文"
     order_adjustments:
     order_already_updated:
-    order_approved:
-    order_canceled:
+    order_approved: "注文受付完了"
+    order_canceled: "注文はキャンセルされました"
     order_details: "注文詳細"
     order_email_resent: "注文詳細メールを再送信しました"
     order_information: "注文情報"
@@ -1126,20 +1126,20 @@ ja:
     ship_total:
     shipment: "発送"
     shipment_adjustments:
-    shipment_details:
+    shipment_details: ""
     shipment_mailer:
       shipped_email:
-        dear_customer:
-        instructions:
-        shipment_summary:
-        subject: "発送の通知"
-        thanks:
-        track_information:
-        track_link:
+        dear_customer: "-----------\nアイ製作\n-----------"
+        instructions: "ご注文商品の発送が完了致しましたのでお知らせ致します。"
+        shipment_summary: "配送詳細"
+        subject: "商品を発送致しました。"
+        thanks: "商品到着まで今しばらくお待ちください。\n\n---------------------------------\nアイ製作\n〒362-0806 埼玉県北足立郡伊奈町小室２４８４－２\nTEL: 080-8744-9051\nURL: https://www.iseisaku.com/\nMail: webmaster@iseisaku.com\n---------------------------------"
+        track_information: "お問い合わせ伝票番号："
+        track_link: "お荷物問い合わせサービス："
     shipment_state: "配送状況"
     shipment_states:
       backorder: "入荷待ち"
-      canceled:
+      canceled: "キャンセル済み"
       partial: "一部配送"
       pending: "配送準備中"
       ready: "配送可能"
@@ -1276,7 +1276,7 @@ ja:
     tiered_flat_rate:
     tiered_percent:
     tiers:
-    time:
+    time: "時"
     to_add_variants_you_must_first_define: "種類を追加するには、まずそれを定義する必要があります。"
     total: "合計"
     total_per_item:
@@ -1284,10 +1284,10 @@ ja:
     total_price:
     total_sales:
     track_inventory:
-    tracking: "トラッキング"
+    tracking: "お問い合わせ伝票番号"
     tracking_number:
-    tracking_url:
-    tracking_url_placeholder:
+    tracking_url: "お荷物問い合わせサービスURL"
+    tracking_url_placeholder: ""
     transaction_id:
     transfer_from_location:
     transfer_stock:
