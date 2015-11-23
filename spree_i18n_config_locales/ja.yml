@@ -819,7 +819,7 @@ ja:
     no_rules_added: "ルールが追加されていません"
     no_shipping_method_selected:
     no_state_changes:
-    no_tracking_present:
+    no_tracking_present: "お問い合わせ伝票番号は登録されていません"
     none: "空です"
     none_selected:
     normal_amount: "通常価格"
@@ -1285,7 +1285,7 @@ ja:
     total_sales:
     track_inventory:
     tracking: "お問い合わせ伝票番号"
-    tracking_number:
+    tracking_number: "お問い合わせ伝票番号"
     tracking_url: "お荷物問い合わせサービスURL"
     tracking_url_placeholder: ""
     transaction_id:
@@ -1304,7 +1304,7 @@ ja:
     update: "更新"
     updating: "更新中"
     usage_limit: "使用制限"
-    use_app_default:
+    use_app_default: "デフォルト"
     use_billing_address: "請求先住所を使用する"
     use_new_cc: "新しいカードを使用する"
     use_s3: "商品画像の保存にAmazon S3を使用する"
